@@ -1,10 +1,5 @@
 
-<!--
-differs from sign up in that the form element's id is form1
-send colleced data in form.php file located in the same folder.
-Headers and footers sorround the form
-*Pending CSS*
--->
+
 <?php include ("view/header.php");?>
 
 
@@ -29,7 +24,7 @@ Headers and footers sorround the form
                     </div>
                     
                     <button id = "btn" type="submit" name="signin" value="signin">Sign In</button>
-                    <button class = "button"><a href = "signup.php" >Sign Up</a></button>
+                     <button id = "btn" type="submit" name="signup" value="signup"><a href="signup.php">Sign Up</a></button>
                 </form>
             </div>
         </div>
